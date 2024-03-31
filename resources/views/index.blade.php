@@ -571,7 +571,7 @@
         </div>
       </div>
 
-      <form action="{{ route('contact') }}" method="post" role="form" class="php-email-form mt-4">
+      {{-- <form action="{{ route('contact') }}" method="post" role="form" class="php-email-form mt-4">
         @csrf
         <div class="row">
           <div class="col-md-6 form-group">
@@ -593,7 +593,7 @@
           <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
         <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
+      </form> --}}
 
     </div>
   </section><!-- End Contact Section -->
