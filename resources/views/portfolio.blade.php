@@ -90,7 +90,7 @@
               <li><strong>Category</strong>: Web App</li>
               <li><strong>Client</strong>:<a href="{{ $portfolio['portfolio-client-url'] }}"> {{ $portfolio['portfolio-client'] }}</a></li>
               <li><strong>Project date</strong>: {{ $portfolio['portfolio-date-month'] }}, {{ $portfolio['portfolio-date-year'] }}</li>
-              <li><strong>Project URL</strong>: <a href="{{ $portfolio['portfolio-url'] }}">{{ $portfolio['portfolio-url-name'] }}</a></li>
+              <li><strong>Project URL</strong>: <a target="_blank" href="{{ $portfolio['portfolio-url'] }}">{{ $portfolio['portfolio-url-name'] }}</a></li>
               <li><strong>Project tech</strong>: {{ $portfolio['tech'] }}</li>
             </ul>
 
