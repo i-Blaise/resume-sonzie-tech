@@ -100,7 +100,7 @@
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>{{ $about->age }}</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelors</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>menniablaise@yahoo.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>menniablaise@yahoo.com</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
               </ul>
             </div>
@@ -129,7 +129,7 @@
         <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
           <div class="count-box">
             <i class="bi bi-code-square"></i>
-            <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="purecounter"></span>
             <p>Projects</p>
           </div>
         </div>
@@ -186,6 +186,14 @@
             </div>
           </div>
 
+          
+          <div class="progress">
+            <span class="skill">Django <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
         </div>
 
         <div class="col-lg-6">
@@ -198,16 +206,23 @@
           </div>
 
           <div class="progress">
-            <span class="skill">Laravel <i class="val">90%</i></span>
+            <span class="skill">Laravel <i class="val">98%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
-            <span class="skill">Python <i class="val">55%</i></span>
+            <span class="skill">Python <i class="val">85%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Java <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
@@ -295,6 +310,31 @@
           <div class="icon-box">
             <x-fab-digital-ocean width=32 height=32 style="color: #29cc61;" />
             <h3>&nbsp; Digital Ocean</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <x-si-google width=30 height=30 style="color: #f50000;" />
+            <h3>&nbsp; Google Cloud Platform</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <x-fab-aws width=32 height=32 style="color: #FF9900;"/>
+            <h3>&nbsp; AWS</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <x-si-mongodb style="color: #17be04;" width=32 height=32 />
+            <h3>&nbsp; MongoDB</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <x-fab-ubuntu width=32 height=32 style="color: #F57422;" />
+            <h3>&nbsp; Ubuntu</h3>
           </div>
         </div>
       </div>
@@ -418,20 +458,20 @@
             <h4>Bachelor of Science, Computer Science</h4>
             <h5>Jan 2015 - Nov 2018</h5>
             <p><em>Coventry University, Accra</em></p>
-            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+            <p>Completed a Computer Science degree through an affiliate program affiliated with Coventry University (UK). The program provided me with a strong foundation in programming, software development, and systems design. My coursework included hands-on projects in areas such as web development, database management, and algorithm design, equipping me with practical skills and a problem-solving mindset essential for the tech industry.</p>
           </div>
           <div class="resume-item">
             <h4>Diploma of Higher Education, Computing Science</h4>
             <h5>Nov 2014 - Sep 2017</h5>
             <p><em>Staffordshire University, Accra</em></p>
-            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            <p>Completed a diploma in Computer Science through an affiliate program with Staffordshire University, studying standard courses in programming, systems analysis, and application development.</p>
           </div>
           <div class="resume-item">
             <h4>Advanced Certificate in Database Administration (ORACLE-
               OCA)</h4>
             <h5>Aug 2017</h5>
             <p><em>This certificate was issued by Ghana Institute of Management and Public Administration(GIMPA)            </em></p>
-            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+            <p>Earned an Advanced Certificate in Database Administration (ORACLE-OCA) from the Ghana Institute of Management and Public Administration (GIMPA), specializing in advanced Oracle database management techniques. The curriculum covered complex aspects of database architecture, performance optimization, high availability, security management, and SQL, providing in-depth expertise in Oracle database systems and administration.</p>
           </div>
         </div>
         <div class="col-lg-6">
@@ -442,11 +482,14 @@
             <p><em>Interactive Digital, Accra </em></p>
             <p>
             <ul>
-              <li>In this position I have weekly meetings with the manager to discuss and give updates on ongoing and upcoming projects</li>
-              <li>I am responsible for managing and configuring our Linux-based Virtual Private Servers (VPS) which run on both Apache and Nginx web servers. </li>
-              <li>I build and manage websites for both inhouse purposes and for clients according to their needs. I utilize frontend and backend technologies to build a complete website.</li>
-              <li>I also work together with Frontend Developers and UI/UX Designers, both in-house and on client-side to solve technical challenges and delegate set tasks for a smooth and efficient delivery of software products</li>
-              <li>This was a hybrid position for my first two years and has been fully remote ever since then.</li>
+              <li>Led weekly meetings with the manager to provide updates on ongoing projects and to collaborate on upcoming development tasks, ensuring alignment with business goals and timelines.</li>
+              <li>Managed and configured Linux-based Virtual Private Servers (VPS) running Apache and Nginx web servers, ensuring optimized performance, scalability, and security for production environments. </li>
+              <li>Spearheaded the development and management of both internal and client-facing websites, utilizing a wide range of frontend (HTML, CSS, JavaScript, React) and backend (PHP, Node.js, Pyhton) technologies to deliver fully functional and responsive web applications.</li>
+              <li>Collaborated cross-functionally with Frontend Developers, UI/UX Designers, and stakeholders to tackle technical challenges, improve user experience, and delegate tasks, leading to the seamless delivery of high-quality software products.</li>
+              <li>Transitioned from a hybrid to a fully remote role, adapting to a dynamic and distributed work environment while maintaining high productivity and team collaboration.</li>
+              <li>Implemented continuous integration and deployment (CI/CD) pipelines to streamline development workflows and improve software delivery efficiency.</li>
+              <li>Optimized application performance and server infrastructure, focusing on reducing load times, enhancing security, and ensuring uptime for critical business operations.</li>
+              <li>Mentored junior developers, fostering skill growth and ensuring adherence to best coding practices and development standards.</li>
             </ul>
             </p>
           </div>
@@ -456,9 +499,14 @@
             <p><em>TDI-Global, Accra</em></p>
             <p>
             <ul>
-              <li>Debugged and built Laravel API's to be consumed by a project built with AngularJS; an e-learning platform (elearning.thinkmy3d.net)</li>
-              <li>Optimized and redesigned existing Laravel API's on the e-learning platform which increased the speed of the system considerably</li>
-              <li>Occasionally answered and handled customer service complaints</li>
+              <li>Developed and debugged Laravel APIs to integrate with a project built using AngularJS, contributing to the functionality and user experience of an e-learning platform (elearning.thinkmy3d.net).</li>
+              <li>Optimized and redesigned legacy Laravel APIs on the e-learning platform, significantly improving system performance and reducing response times.</li>
+              <li>Conducted thorough software testing, identifying and documenting bugs, and ensuring seamless integration between front-end and back-end components.</li>
+              <li>Collaborated with cross-functional teams to refine the platform’s user experience, identifying areas for improvement through direct user feedback and testing results.</li>
+              <li>Delivered timely customer support and managed occasional customer service complaints, ensuring customer satisfaction and fostering strong relationships with users.</li>
+              <li>Participated in quality assurance processes, executing test cases, regression tests, and user acceptance testing to ensure software stability before release.</li>
+              <li>Demonstrated excellent communication skills when explaining technical solutions to non-technical customers, bridging the gap between technical teams and end-users.</li>
+              <li>Supported sales efforts by providing product demonstrations and addressing technical queries, contributing to overall sales and customer retention.</li>
             </ul>
             </p>
           </div>
@@ -468,10 +516,11 @@
             <p><em>Social Security and National Insurance Trust(SSNIT), Accra</em></p>
             <p>
             <ul>
-              <li>I was introduced working on large projects in a formal work settings with version control systems like Gitlab and GitHub</li>
-              <li>Built REStful APIs with PHP Laravel for an in-house project that is being used by over two thousand(2,000) employees</li>
-              <li>Managing the Oracle database of the project was one of my responsibilities</li>
-              <li>Enhanced my time management and accuracy skills</li>
+              <li>Designed and developed RESTful APIs using PHP Laravel for an in-house platform that supports over 3,000 employees, ensuring reliable and scalable solutions for critical internal operations.</li>
+              <li>Managed and optimized the Oracle database for the project, ensuring data integrity, security, and high performance for a nationwide employee-benefits system.</li>
+              <li>Collaborated closely with cross-functional teams to meet strict compliance requirements and optimize backend infrastructure, ensuring smooth integration with other systems and seamless user experience.</li>
+              <li>Enhanced time management and problem-solving skills through consistent delivery of high-quality solutions under tight deadlines, contributing to the efficiency of the project.</li>
+              <li>Actively participated in the continuous improvement of development processes, driving efficiency and maintaining high standards in coding and system architecture.</li>
             </ul>
             </p>
           </div>
