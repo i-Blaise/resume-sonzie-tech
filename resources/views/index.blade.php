@@ -44,7 +44,7 @@
       <h1><a href="{{ route('index') }}">Blaise Mennia</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a passionate <span>software developer</span> from Ghana</h2>
+      <h2>I am a <span>Senior Full-Stack Developer,</span> specializing in scalable web applications and seamless user experiences.</h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -58,10 +58,9 @@
       </nav><!-- .navbar -->
 
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bi bi-github"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/i-Blaise" target="_blank" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://x.com/Jobotron2024_gh" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.linkedin.com/in/blaise-mennia-50b25369/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -597,9 +596,9 @@
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
             <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-github"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/i-Blaise" target="_blank" class="github"><i class="bi bi-github"></i></a>
+              <a href="https://x.com/Jobotron2024_gh" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.linkedin.com/in/blaise-mennia-50b25369/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
