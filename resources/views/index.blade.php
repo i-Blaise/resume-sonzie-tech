@@ -79,7 +79,7 @@
 
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
-          <img src="{{ asset('img/me.jpeg') }}" class="img-fluid" alt="">
+          <img src="{{ asset('img/me1.jpeg') }}" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h3>Software Engineer - Full Stack</h3>
@@ -186,12 +186,12 @@
           </div>
 
           
-          <div class="progress">
+          {{-- <div class="progress">
             <span class="skill">Django <i class="val">70%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-          </div>
+          </div> --}}
 
         </div>
 
@@ -218,12 +218,12 @@
             </div>
           </div>
 
-          <div class="progress">
+          {{-- <div class="progress">
             <span class="skill">Java <i class="val">60%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-          </div>
+          </div> --}}
 
         </div>
 
